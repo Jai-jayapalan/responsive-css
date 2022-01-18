@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background: rgb(32, 145, 221);
+}
+
+ul {
+    top: 5%;
+    right: 5%;
+    position: absolute;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.thumbnail {
+    padding-top: 7%;
+}
+
+.thumbnail li {
+    list-style: none;
+    position: relative;
+    margin-top: 50px;
+}
+
+.thumbnail img {
+    max-width: 120px;
+    display: block;
+    transition: .5s;
+}
+
+.thumbnail img:hover {
+    transform: translateX(30px);
+    transition: .5s;
+}
+
+.big-img img {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    max-width: 500px;
+    max-height: 505px;
+}
+
+.content {
+    position: absolute;
+    max-width: 40%;
+    cursor: pointer;
+    top: 20%;
+    right: 3%;
+}
+
+.content p {
+    font-size: 50px;
+    color: black;
+    font-weight: 700;
+    font-family: cursive;
+    text-shadow: 2px 0px 4px rgb(0, 0, 0);
+    margin-left: 20%;
+}
+
+.content h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: skyblue;
+    font-family: fantasy;
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.content h5 {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+}
+
+.path {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: seashell;
+    clip-path: circle(520px at left);
+}
